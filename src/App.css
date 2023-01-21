@@ -1,0 +1,67 @@
+.App {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    padding: 15px;
+  
+}
+
+.quoteBox {
+    background: white;
+    padding: 28px;
+    border-radius: 17px;
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    -ms-border-radius: 17px;
+    -o-border-radius: 17px;
+    max-width: 750px;
+    position: relative;
+    box-shadow: 1px 1px 18px rgb(6, 62, 107);
+}
+
+.quote-autor {
+    text-align: right;
+    margin: 8px;
+    text-decoration:underline;
+}
+
+.quote-button {
+    font-size: 29px;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px 0 auto;
+    cursor: pointer;
+    transition: transform 200ms ease;
+    -webkit-transition: transform 200ms ease;
+    -moz-transition: transform 200ms ease;
+    -ms-transition: transform 200ms ease;
+    -o-transition: transform 200ms ease;
+}
+
+.quote-button:hover {
+    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+}
+
+.quote-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 23px;
+}
